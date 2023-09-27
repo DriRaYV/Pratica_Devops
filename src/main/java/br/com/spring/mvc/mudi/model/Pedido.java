@@ -14,7 +14,7 @@ import jakarta.persistence.Entity;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
-public class Pedido {
+	public class Pedido {
 	
 	@Id 
 	//@GeneratedValue(strategy = GenerationType.IDENTITY)  only mysql, below is Postgree
